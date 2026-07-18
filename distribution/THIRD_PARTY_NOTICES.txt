@@ -1,0 +1,43 @@
+XPBD Bone Baker - Third-party notices
+
+This Windows x64 release distributes the following pinned runtime components.
+The complete referenced license texts are included in the licenses folder.
+
+1. OpenJFX / JavaFX 21.0.2
+   Artifacts: javafx-base, javafx-controls, javafx-graphics (including Windows
+   classifier JARs)
+   License: GNU General Public License version 2 with the Classpath Exception;
+   OpenJFX additional licensing information and assembly exception also apply.
+   Upstream: https://github.com/openjdk/jfx21u
+   Included texts:
+     licenses/OPENJFX-GPL-2.0-WITH-CLASSPATH-EXCEPTION.txt
+     licenses/OPENJFX-ADDITIONAL-LICENSE-INFO.txt
+     licenses/OPENJFX-ASSEMBLY-EXCEPTION.txt
+
+2. Gson 2.10.1
+   Artifact: gson
+   License: Apache License 2.0
+   Upstream: https://github.com/google/gson/tree/gson-parent-2.10.1
+   Included text: licenses/APACHE-2.0.txt
+
+3. libGDX 1.14.1
+   Artifacts: gdx, gdx-bullet, gdx-bullet-platform natives-desktop
+   License: Apache License 2.0
+   Upstream: https://github.com/libgdx/libgdx/tree/1.14.1
+   Included text: licenses/APACHE-2.0.txt
+
+4. gdx-jnigen-loader 2.5.2
+   Artifact: gdx-jnigen-loader (transitive runtime dependency)
+   License: Apache License 2.0
+   Upstream: https://github.com/libgdx/gdx-jnigen/tree/2.5.2
+   Included text: licenses/APACHE-2.0.txt
+
+5. Bullet Physics (native engine wrapped by gdx-bullet 1.14.1)
+   Embedded Bullet API version reported by the runtime: 2.87
+   License: zlib
+   Upstream: https://github.com/bulletphysics/bullet3
+   Included text: licenses/BULLET-ZLIB.txt
+
+The dependency versions are intentionally fixed. Keep this notice, the
+licenses folder, the main JAR and the lib folder together when redistributing
+the release.

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.transform_baselines",
+        "texture_width": 32,
+        "texture_height": 32
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [1.25, -2.5, 3.75],
+          "rotation": [10.5, -20.25, 30.75],
+          "cubes": [
+            {
+              "origin": [-1.5, 2.25, -3.75],
+              "size": [2.5, 4.5, 6.5],
+              "pivot": [8.5, -7.25, 6.125],
+              "rotation": [89.999, -90.001, 179.999],
+              "inflate": 0.125
+            }
+          ]
+        },
+        {
+          "name": "child",
+          "parent": "root",
+          "pivot": [4.25, 5.5, -6.75],
+          "rotation": [-45.5, 90.25, -179.75],
+          "cubes": [
+            {
+              "origin": [7.5, -8.25, 9.75],
+              "size": [-2.5, 3.5, -4.5],
+              "rotation": [-90, 180, 45],
+              "inflate": 0.25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

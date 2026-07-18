@@ -1,0 +1,47 @@
+# Maven build output
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+.buildNumber
+
+# IDE and editor metadata
+/.idea/
+/.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Logs and JVM crash files
+*.log
+hs_err_pid*
+replay_pid*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local analysis, agent plans, and temporary work
+/analysis/
+/.agents/
+/.planning/
+/.tmp/
+/findings.md
+/progress.md
+/task_plan.md
+
+# Local backups and generated archives
+*.bak
+*.tmp
+*.orig
+*.rej
+/xpbd-baker-*.zip
+
+# Local environment files
+.env
+.env.*
+!.env.example
